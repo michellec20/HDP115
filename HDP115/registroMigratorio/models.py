@@ -24,9 +24,11 @@ class persona(models.Model):
         blank=True,
         choices=nacional_extranjero
     ) 
+    paisOrigen = models.CharField(max_length= 50, default="")
+    paisDestino = models.CharField(max_length= 50, default="")
     fechaSalida = models.DateField()
     fechaIngreso = models.DateField()
-    TiempoPermanencia = models.CharField(max_length=10, default="")
+    tiempoPermanencia = models.CharField(max_length=10, default="")
 
 
 

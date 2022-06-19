@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from flujoMigratorio.views import *
+from registroMigratorio.views import *
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
-from flujoMigratorio import views 
+from registroMigratorio import views 
 from django.contrib.auth.views import LoginView,LogoutView
 urlpatterns = [
     path('admin/', admin.site.urls),

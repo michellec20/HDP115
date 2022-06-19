@@ -9,12 +9,12 @@ class PersonaForm(forms.ModelForm):
         fields = ('nombre','apellido', 'paisOrigen', 'paisDestino', 'pasaporte', 'tiempoPermanencia')
         label = {
             
-            'nombre':('Nombre:'),
-            'apellido':('Apellido:'),
-            'paisOrigen':('Pais Origen:'),
-            'paisDestino':('Pais Destino:')
-            'pasaporte':('Pasaporte:'),
-            'tiempoPermanencia':('Tiempo de Permanencia:'),
+            'nombre':('Nombre'),
+            'apellido':('Apellido'),
+            'paisOrigen':('Pais Origen'),
+            'paisDestino':('Pais Destino'),
+            'pasaporte':('Numero de Pasaporte'),
+            'tiempoPermanencia':('Tiempo de Permanencia'),
             
         }
         help_texts ={
